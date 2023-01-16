@@ -1,0 +1,37 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Metascore_NicheWidth.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}16 Jan 2023, 04:04:22
+{txt}file {bf:Pictures/Stata/scatter_meta_niche.png} written in PNG format
+
+      Source {c |}       SS           df       MS      Number of obs   ={res}     8,813
+{txt}{hline 13}{c +}{hline 34}   F(1, 8811)      = {res}     0.13
+{txt}       Model {c |} {res} 19.3571756         1  19.3571756   {txt}Prob > F        ={res}    0.7166
+{txt}    Residual {c |} {res} 1293784.14     8,811  146.837379   {txt}R-squared       ={res}    0.0000
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}   -0.0001
+{txt}       Total {c |} {res}  1293803.5     8,812  146.822912   {txt}Root MSE        =   {res} 12.118
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}  meta_score{col 14}{c |} Coefficient{col 26}  Std. err.{col 38}      t{col 46}   P>|t|{col 54}     [95% con{col 67}f. interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 1}niche_width {c |}{col 14}{res}{space 2} .0398936{col 26}{space 2} .1098754{col 37}{space 1}    0.36{col 46}{space 3}0.717{col 54}{space 4}-.1754879{col 67}{space 3} .2552751
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 70.78145{col 26}{space 2} .3918888{col 37}{space 1}  180.62{col 46}{space 3}0.000{col 54}{space 4} 70.01326{col 67}{space 3} 71.54965
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+             {txt}{c |} meta_s~e niche_~h
+{hline 13}{c +}{hline 18}
+  meta_score {c |} {res}  1.0000 
+             {txt}{c |}
+             {c |}
+ niche_width {c |} {res}  0.0039   1.0000 
+             {txt}{c |}{res}   0.7166
+             {txt}{c |}
+      name:  {res}<unnamed>
+       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Metascore_NicheWidth.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}16 Jan 2023, 04:04:27
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
