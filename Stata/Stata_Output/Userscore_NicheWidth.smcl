@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Userscore_NicheWidth.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}17 Jan 2023, 03:46:27
+ {txt}opened on:  {res}17 Jan 2023, 13:44:03
 {txt}file {bf:Pictures/Stata/scatter_user_niche.png} written in PNG format
 
       Source {c |}       SS           df       MS      Number of obs   ={res}     8,813
@@ -31,7 +31,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Userscore_NicheWidth.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}17 Jan 2023, 03:46:31
+ {txt}closed on:  {res}17 Jan 2023, 13:44:06
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
