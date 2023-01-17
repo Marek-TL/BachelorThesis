@@ -1,9 +1,9 @@
 {smcl}
 {com}{sf}{ul off}{txt}{.-}
       name:  {res}<unnamed>
-       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Metascore_NicheWidth.smcl
+       {txt}log:  {res}/Users/marek/Documents/Bachelor Git Hub Repo/BachelorThesis/Stata/Stata_Output/Metascore_NicheWidth.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}17 Jan 2023, 22:21:17
+ {txt}opened on:  {res}17 Jan 2023, 22:56:07
 {txt}file {bf:Pictures/Stata/scatter_meta_niche.png} written in PNG format
 
       Source {c |}       SS           df       MS      Number of obs   ={res}     8,813
@@ -64,9 +64,9 @@ platform_w~h {c |} {res}  0.1111* -0.0014   0.0148   1.0000
              {txt}{c |}{res}   0.4099   0.0000   0.0001   0.0000
              {txt}{c |}
       name:  {res}<unnamed>
-       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Metascore_NicheWidth.smcl
+       {txt}log:  {res}/Users/marek/Documents/Bachelor Git Hub Repo/BachelorThesis/Stata/Stata_Output/Metascore_NicheWidth.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}17 Jan 2023, 22:21:23
+ {txt}closed on:  {res}17 Jan 2023, 22:56:14
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
