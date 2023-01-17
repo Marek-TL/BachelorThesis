@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Userscore_PlatformWidth.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}17 Jan 2023, 13:44:13
+ {txt}opened on:  {res}17 Jan 2023, 22:21:34
 {txt}file {bf:Pictures/Stata/scatter_user_platform.png} written in PNG format
 
       Source {c |}       SS           df       MS      Number of obs   ={res}     8,817
@@ -31,7 +31,7 @@ platform_w~h {c |} {res} -0.0014   1.0000
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Userscore_PlatformWidth.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}17 Jan 2023, 13:44:16
+ {txt}closed on:  {res}17 Jan 2023, 22:21:37
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
