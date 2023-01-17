@@ -1,0 +1,37 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Metascore_Year.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}17 Jan 2023, 03:46:43
+{txt}file {bf:Pictures/Stata/scatter_meta_year.png} written in PNG format
+
+      Source {c |}       SS           df       MS      Number of obs   ={res}     7,492
+{txt}{hline 13}{c +}{hline 34}   F(1, 7490)      = {res}     0.68
+{txt}       Model {c |} {res} 104.969542         1  104.969542   {txt}Prob > F        ={res}    0.4099
+{txt}    Residual {c |} {res} 1157644.92     7,490  154.558735   {txt}R-squared       ={res}    0.0001
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}   -0.0000
+{txt}       Total {c |} {res} 1157749.89     7,491  154.552115   {txt}Root MSE        =   {res} 12.432
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}  meta_score{col 14}{c |} Coefficient{col 26}  Std. err.{col 38}      t{col 46}   P>|t|{col 54}     [95% con{col 67}f. interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 8}year {c |}{col 14}{res}{space 2} .0215447{col 26}{space 2}  .026143{col 37}{space 1}    0.82{col 46}{space 3}0.410{col 54}{space 4} -.029703{col 67}{space 3} .0727924
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 27.29118{col 26}{space 2} 52.53435{col 37}{space 1}    0.52{col 46}{space 3}0.603{col 54}{space 4} -75.6909{col 67}{space 3} 130.2733
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+             {txt}{c |} meta_s~e     year
+{hline 13}{c +}{hline 18}
+  meta_score {c |} {res}  1.0000 
+             {txt}{c |}
+             {c |}
+        year {c |} {res}  0.0095   1.0000 
+             {txt}{c |}{res}   0.4099
+             {txt}{c |}
+      name:  {res}<unnamed>
+       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Metascore_Year.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}17 Jan 2023, 03:46:47
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
