@@ -1,0 +1,29 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_genremetahypo.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}19 Jan 2023, 01:51:35
+{txt}file {bf:Pictures/Stata/scatter_genremeta_niche.png} written in PNG format
+
+             {c |} scor~ean  nw_mean  pw_mean   y_mean
+{hline 13}{c +}{hline 36}
+  score_mean {c |} {res}  1.0000 
+             {txt}{c |}
+             {c |}
+     nw_mean {c |} {res} -0.0245   1.0000 
+             {txt}{c |}{res}   0.8175
+             {txt}{c |}
+     pw_mean {c |} {res}  0.2065*  0.1722   1.0000 
+             {txt}{c |}{res}   0.0495   0.1026
+             {txt}{c |}
+      y_mean {c |} {res}  0.0790  -0.1860  -0.1324   1.0000 
+             {txt}{c |}{res}   0.4568   0.0775   0.2108
+             {txt}{c |}
+      name:  {res}<unnamed>
+       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_genremetahypo.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}19 Jan 2023, 01:51:37
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

@@ -1,0 +1,45 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output1.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}19 Jan 2023, 01:33:23
+{txt}file {bf:Pictures/Stata/scatter_meta_niche.png} written in PNG format
+{res}{txt}file {bf:Pictures/Stata/scatter_user_niche.png} written in PNG format
+
+             {c |} meta_s~e user_s~e niche_~h platfo~h     year
+{hline 13}{c +}{hline 45}
+  meta_score {c |} {res}  1.0000 
+             {txt}{c |}
+             {c |}
+  user_score {c |} {res}  0.5834*  1.0000 
+             {txt}{c |}{res}   0.0000
+             {txt}{c |}
+ niche_width {c |} {res}  0.0006  -0.0491*  1.0000 
+             {txt}{c |}{res}   0.9587   0.0000
+             {txt}{c |}
+platform_w~h {c |} {res}  0.1112*  0.0008   0.0147   1.0000 
+             {txt}{c |}{res}   0.0000   0.9417   0.1670
+             {txt}{c |}
+        year {c |} {res}  0.0074  -0.2158* -0.0461*  0.0489*  1.0000 
+             {txt}{c |}{res}   0.5193   0.0000   0.0001   0.0000
+             {txt}{c |}
+{res}
+{txt}Skewness and kurtosis tests for normality
+{col 58}{hline 5} Joint test {hline 5}
+{col 5}Variable {c |}{col 22}Obs   Pr(skewness)   Pr(kurtosis)   Adj chi2(2)  Prob>chi2
+{hline 13}{c +}{hline 65}
+  meta_score {c |}{res}{col 16}    8,831{col 34}0.0000{col 49}0.0000{col 60}   786.88{col 74}0.0000
+
+{txt}Skewness and kurtosis tests for normality
+{col 58}{hline 5} Joint test {hline 5}
+{col 5}Variable {c |}{col 22}Obs   Pr(skewness)   Pr(kurtosis)   Adj chi2(2)  Prob>chi2
+{hline 13}{c +}{hline 65}
+  user_score {c |}{res}{col 16}    8,831{col 34}0.0000{col 49}0.0000{col 60}        .{col 74}     .
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output1.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}19 Jan 2023, 01:33:30
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

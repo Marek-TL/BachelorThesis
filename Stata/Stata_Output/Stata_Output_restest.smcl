@@ -1,0 +1,59 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}19 Jan 2023, 01:33:31
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,500
+{txt}{hline 13}{c +}{hline 34}   F(3, 7496)      = {res}    31.56
+{txt}       Model {c |} {res} 14610.4254         3  4870.14181   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res}  1156843.4     7,496  154.328095   {txt}R-squared       ={res}    0.0125
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0121
+{txt}       Total {c |} {res} 1171453.83     7,499  156.214672   {txt}Root MSE        =   {res} 12.423
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}  meta_score{col 14}{c |} Coefficient{col 26}  Std. err.{col 38}      t{col 46}   P>|t|{col 54}     [95% con{col 67}f. interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 1}niche_width {c |}{col 14}{res}{space 2}  .173615{col 26}{space 2} .1211107{col 37}{space 1}    1.43{col 46}{space 3}0.152{col 54}{space 4} -.063796{col 67}{space 3}  .411026
+{txt}platform_w~h {c |}{col 14}{res}{space 2} 1.907262{col 26}{space 2} .1997934{col 37}{space 1}    9.55{col 46}{space 3}0.000{col 54}{space 4}  1.51561{col 67}{space 3} 2.298913
+{txt}{space 8}year {c |}{col 14}{res}{space 2} .0064545{col 26}{space 2} .0261773{col 37}{space 1}    0.25{col 46}{space 3}0.805{col 54}{space 4}-.0448603{col 67}{space 3} .0577693
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 54.40083{col 26}{space 2} 52.61195{col 37}{space 1}    1.03{col 46}{space 3}0.301{col 54}{space 4}-48.73334{col 67}{space 3}  157.535
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}(1,331 missing values generated)
+{res}
+{txt}Skewness and kurtosis tests for normality
+{col 58}{hline 5} Joint test {hline 5}
+{col 5}Variable {c |}{col 22}Obs   Pr(skewness)   Pr(kurtosis)   Adj chi2(2)  Prob>chi2
+{hline 13}{c +}{hline 65}
+    res_meta {c |}{res}{col 16}    7,500{col 34}0.0000{col 49}0.0000{col 60}   597.15{col 74}0.0000
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,500
+{txt}{hline 13}{c +}{hline 34}   F(3, 7496)      = {res}   139.04
+{txt}       Model {c |} {res} 65762.8744         3  21920.9581   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 1181776.03     7,496   157.65422   {txt}R-squared       ={res}    0.0527
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0523
+{txt}       Total {c |} {res} 1247538.91     7,499  166.360702   {txt}Root MSE        =   {res} 12.556
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}  user_score{col 14}{c |} Coefficient{col 26}  Std. err.{col 38}      t{col 46}   P>|t|{col 54}     [95% con{col 67}f. interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 1}niche_width {c |}{col 14}{res}{space 2}-.8295143{col 26}{space 2} .1224089{col 37}{space 1}   -6.78{col 46}{space 3}0.000{col 54}{space 4} -1.06947{col 67}{space 3}-.5895586
+{txt}platform_w~h {c |}{col 14}{res}{space 2} .3777588{col 26}{space 2} .2019349{col 37}{space 1}    1.87{col 46}{space 3}0.061{col 54}{space 4}-.0180903{col 67}{space 3} .7736079
+{txt}{space 8}year {c |}{col 14}{res}{space 2}-.5174128{col 26}{space 2} .0264578{col 37}{space 1}  -19.56{col 46}{space 3}0.000{col 54}{space 4}-.5692776{col 67}{space 3} -.465548
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 1112.501{col 26}{space 2} 53.17588{col 37}{space 1}   20.92{col 46}{space 3}0.000{col 54}{space 4} 1008.261{col 67}{space 3}  1216.74
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}(1,331 missing values generated)
+{res}
+{txt}Skewness and kurtosis tests for normality
+{col 58}{hline 5} Joint test {hline 5}
+{col 5}Variable {c |}{col 22}Obs   Pr(skewness)   Pr(kurtosis)   Adj chi2(2)  Prob>chi2
+{hline 13}{c +}{hline 65}
+    res_user {c |}{res}{col 16}    7,500{col 34}0.0000{col 49}0.0000{col 60}        .{col 74}     .
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}19 Jan 2023, 01:33:32
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
