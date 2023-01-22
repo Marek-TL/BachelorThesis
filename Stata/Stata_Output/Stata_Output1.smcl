@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output1.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}19 Jan 2023, 01:33:23
+ {txt}opened on:  {res}22 Jan 2023, 02:43:31
 {txt}file {bf:Pictures/Stata/scatter_meta_niche.png} written in PNG format
 {res}{txt}file {bf:Pictures/Stata/scatter_user_niche.png} written in PNG format
 
@@ -39,7 +39,7 @@ platform_w~h {c |} {res}  0.1112*  0.0008   0.0147   1.0000
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output1.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}19 Jan 2023, 01:33:30
+ {txt}closed on:  {res}22 Jan 2023, 02:43:39
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
