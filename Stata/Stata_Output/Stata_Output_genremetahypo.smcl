@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_genremetahypo.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}22 Jan 2023, 02:45:13
+ {txt}opened on:  {res}23 Jan 2023, 19:35:29
 {txt}file {bf:Pictures/Stata/scatter_genremeta_niche.png} written in PNG format
 
              {c |} scor~ean  nw_mean  pw_mean   y_mean
@@ -23,7 +23,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_genremetahypo.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}22 Jan 2023, 02:45:15
+ {txt}closed on:  {res}23 Jan 2023, 19:35:30
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
