@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_genremetahypo.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}29 Jan 2023, 04:37:02
+ {txt}opened on:  {res}29 Jan 2023, 17:53:51
 
              {txt}{c |} scor~ean  nw_mean  pw_mean   y_mean
 {hline 13}{c +}{hline 36}
@@ -22,7 +22,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_genremetahypo.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}29 Jan 2023, 04:37:03
+ {txt}closed on:  {res}29 Jan 2023, 17:53:51
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
