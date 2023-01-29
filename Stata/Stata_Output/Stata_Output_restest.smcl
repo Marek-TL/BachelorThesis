@@ -1,13 +1,11 @@
 {smcl}
-{res}{sf}{ul off}{txt}{.-}
+{txt}{sf}{ul off}{.-}
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}23 Jan 2023, 19:57:05
-{err}no; dataset in memory has changed since last saved
-{txt}{search r(4), local:r(4);}
+ {txt}opened on:  {res}29 Jan 2023, 04:37:03
 
-      Source {c |}       SS           df       MS      Number of obs   ={res}     7,500
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,500
 {txt}{hline 13}{c +}{hline 34}   F(3, 7496)      = {res}    31.56
 {txt}       Model {c |} {res} 14610.4254         3  4870.14181   {txt}Prob > F        ={res}    0.0000
 {txt}    Residual {c |} {res}  1156843.4     7,496  154.328095   {txt}R-squared       ={res}    0.0125
@@ -22,8 +20,7 @@
 {txt}{space 8}year {c |}{col 14}{res}{space 2} .0064545{col 26}{space 2} .0261773{col 37}{space 1}    0.25{col 46}{space 3}0.805{col 54}{space 4}-.0448603{col 67}{space 3} .0577693
 {txt}{space 7}_cons {c |}{col 14}{res}{space 2} 54.40083{col 26}{space 2} 52.61195{col 37}{space 1}    1.03{col 46}{space 3}0.301{col 54}{space 4}-48.73334{col 67}{space 3}  157.535
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{err}variable {bf}res_meta{sf} already defined
-{txt}{search r(110), local:r(110);}
+{res}{txt}(1,331 missing values generated)
 {res}
 {txt}Skewness and kurtosis tests for normality
 {col 58}{hline 5} Joint test {hline 5}
@@ -53,12 +50,10 @@
 {col 5}Variable {c |}{col 22}Obs   Pr(skewness)   Pr(kurtosis)   Adj chi2(2)  Prob>chi2
 {hline 13}{c +}{hline 65}
     res_user {c |}{res}{col 16}    7,500{col 34}0.0000{col 49}0.0000{col 60}        .{col 74}     .
-{txt}(bin={res}38{txt}, start={res}-58.815407{txt}, width={res}2.3227362{txt})
-{res}{txt}(bin={res}38{txt}, start={res}-56.213631{txt}, width={res}2.2277124{txt})
-{res}      {txt}name:  {res}<unnamed>
+      {txt}name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}23 Jan 2023, 19:57:06
+ {txt}closed on:  {res}29 Jan 2023, 04:37:04
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
