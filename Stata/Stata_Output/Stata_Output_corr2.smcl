@@ -1,0 +1,17 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_corr2.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}31 Jan 2023, 00:19:47
+{err}no; dataset in memory has changed since last saved
+{txt}{search r(4), local:r(4);}
+{err}variable {bf}top10_genre_meta{sf} not found
+{txt}{search r(111), local:r(111);}
+      name:  {res}<unnamed>
+       {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_corr2.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}31 Jan 2023, 00:19:47
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

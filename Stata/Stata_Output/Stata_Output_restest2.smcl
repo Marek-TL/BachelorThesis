@@ -3,9 +3,9 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest2.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}29 Jan 2023, 18:58:46
+ {txt}opened on:  {res}31 Jan 2023, 00:19:47
 **********************************************************************************
-************Meta Score nur UV*****************************************************
+************ Metascore nur UV ****************************************************
 **********************************************************************************
 
 {txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     8,827
@@ -23,7 +23,7 @@
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {res}{txt}file {bf:Pictures/Stata/rvfplot_meta_uv.png} written in PNG format
 {res}**********************************************************************************
-************User Score nur UV*****************************************************
+************ Userscore nur UV ****************************************************
 **********************************************************************************
 
 {txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     8,827
@@ -41,7 +41,7 @@
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {res}{txt}file {bf:Pictures/Stata/rvfplot_user_uv.png} written in PNG format
 {res}**********************************************************************************
-************Meta Score nur Dritt**************************************************
+************ Metascore nur Dritt *************************************************
 **********************************************************************************
 
 {txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,493
@@ -68,7 +68,7 @@ platform_w~h {c |}{col 14}{res}{space 2} 1.677293{col 26}{space 2} .1945315{col 
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {res}{txt}file {bf:Pictures/Stata/rvfplot_meta_dritt.png} written in PNG format
 {res}**********************************************************************************
-************User Score nur Dritt**************************************************
+************ Userscore nur Dritt *************************************************
 **********************************************************************************
 
 {txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,493
@@ -95,7 +95,7 @@ platform_w~h {c |}{col 14}{res}{space 2} .5679958{col 26}{space 2} .1985246{col 
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {res}{txt}file {bf:Pictures/Stata/rvfplot_user_dritt.png} written in PNG format
 {res}**********************************************************************************
-************Meta Score ALL********************************************************
+************ Metascore ALL *******************************************************
 **********************************************************************************
 
 {txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,493
@@ -123,7 +123,7 @@ platform_w~h {c |}{col 14}{res}{space 2} .5679958{col 26}{space 2} .1985246{col 
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {res}{txt}file {bf:Pictures/Stata/rvfplot_meta_all.png} written in PNG format
 {res}**********************************************************************************
-************User Score ALL********************************************************
+************ Userscore ALL *******************************************************
 **********************************************************************************
 
 {txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,493
@@ -149,12 +149,11 @@ platform_w~h {c |}{col 14}{res}{space 2} .5679958{col 26}{space 2} .1985246{col 
 {txt}developer_~y {c |}{col 14}{res}{space 2} .0232526{col 26}{space 2} .0085347{col 37}{space 1}    2.72{col 46}{space 3}0.006{col 54}{space 4} .0065222{col 67}{space 3}  .039983
 {txt}{space 7}_cons {c |}{col 14}{res}{space 2} 1015.448{col 26}{space 2}  52.6663{col 37}{space 1}   19.28{col 46}{space 3}0.000{col 54}{space 4} 912.2071{col 67}{space 3} 1118.689
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{txt}(file {bf:Pictures/Stata/rvfplot_user_all.png} not found)
 {res}{txt}file {bf:Pictures/Stata/rvfplot_user_all.png} written in PNG format
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest2.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}29 Jan 2023, 18:59:05
+ {txt}closed on:  {res}31 Jan 2023, 00:20:06
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

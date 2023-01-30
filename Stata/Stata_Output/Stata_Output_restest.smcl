@@ -3,7 +3,10 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}29 Jan 2023, 17:53:51
+ {txt}opened on:  {res}31 Jan 2023, 00:23:55
+**********************************************************************************
+************ Metascore First Regress *********************************************
+**********************************************************************************
 
 {txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,500
 {txt}{hline 13}{c +}{hline 34}   F(3, 7496)      = {res}    31.56
@@ -20,13 +23,18 @@
 {txt}{space 8}year {c |}{col 14}{res}{space 2} .0064545{col 26}{space 2} .0261773{col 37}{space 1}    0.25{col 46}{space 3}0.805{col 54}{space 4}-.0448603{col 67}{space 3} .0577693
 {txt}{space 7}_cons {c |}{col 14}{res}{space 2} 54.40083{col 26}{space 2} 52.61195{col 37}{space 1}    1.03{col 46}{space 3}0.301{col 54}{space 4}-48.73334{col 67}{space 3}  157.535
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{txt}(1,331 missing values generated)
+{res}{txt}file {bf:Pictures/Stata/rvfplot_meta_first.png} written in PNG format
+{res}************ Metascore First Regress sktest ***************************************
+{txt}(1,331 missing values generated)
 {res}
 {txt}Skewness and kurtosis tests for normality
 {col 58}{hline 5} Joint test {hline 5}
 {col 5}Variable {c |}{col 22}Obs   Pr(skewness)   Pr(kurtosis)   Adj chi2(2)  Prob>chi2
 {hline 13}{c +}{hline 65}
     res_meta {c |}{res}{col 16}    7,500{col 34}0.0000{col 49}0.0000{col 60}   597.15{col 74}0.0000
+**********************************************************************************
+************ Userscore First Regress *********************************************
+**********************************************************************************
 
 {txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,500
 {txt}{hline 13}{c +}{hline 34}   F(3, 7496)      = {res}   139.04
@@ -43,17 +51,21 @@
 {txt}{space 8}year {c |}{col 14}{res}{space 2}-.5174128{col 26}{space 2} .0264578{col 37}{space 1}  -19.56{col 46}{space 3}0.000{col 54}{space 4}-.5692776{col 67}{space 3} -.465548
 {txt}{space 7}_cons {c |}{col 14}{res}{space 2} 1112.501{col 26}{space 2} 53.17588{col 37}{space 1}   20.92{col 46}{space 3}0.000{col 54}{space 4} 1008.261{col 67}{space 3}  1216.74
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{txt}(1,331 missing values generated)
+{res}{txt}file {bf:Pictures/Stata/rvfplot_user_first.png} written in PNG format
+{res}************ Userscore First Regress sktest **************************************
+{txt}(1,331 missing values generated)
 {res}
 {txt}Skewness and kurtosis tests for normality
 {col 58}{hline 5} Joint test {hline 5}
 {col 5}Variable {c |}{col 22}Obs   Pr(skewness)   Pr(kurtosis)   Adj chi2(2)  Prob>chi2
 {hline 13}{c +}{hline 65}
     res_user {c |}{res}{col 16}    7,500{col 34}0.0000{col 49}0.0000{col 60}        .{col 74}     .
-      {txt}name:  {res}<unnamed>
+{txt}(bin={res}38{txt}, start={res}-58.815407{txt}, width={res}2.3227362{txt})
+{res}{txt}(bin={res}38{txt}, start={res}-56.213631{txt}, width={res}2.2277124{txt})
+{res}      {txt}name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}29 Jan 2023, 17:53:52
+ {txt}closed on:  {res}31 Jan 2023, 00:24:02
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
