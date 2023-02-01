@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output1.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}31 Jan 2023, 00:19:16
+ {txt}opened on:  {res} 1 Feb 2023, 01:50:49
 {txt}file {bf:Pictures/Stata/scatter_meta_niche.png} written in PNG format
 {res}{txt}file {bf:Pictures/Stata/scatter_user_niche.png} written in PNG format
 
@@ -21,8 +21,8 @@
 platform_w~h {c |} {res}  0.1112*  0.0008   0.0147   1.0000 
              {txt}{c |}{res}   0.0000   0.9417   0.1670
              {txt}{c |}
-        year {c |} {res}  0.0074  -0.2158* -0.0461*  0.0489*  1.0000 
-             {txt}{c |}{res}   0.5193   0.0000   0.0001   0.0000
+        year {c |} {res}  0.0079  -0.2155* -0.0466*  0.0487*  1.0000 
+             {txt}{c |}{res}   0.4950   0.0000   0.0001   0.0000
              {txt}{c |}
 {res}
 {txt}Skewness and kurtosis tests for normality
@@ -39,7 +39,7 @@ platform_w~h {c |} {res}  0.1112*  0.0008   0.0147   1.0000
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output1.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}31 Jan 2023, 00:19:25
+ {txt}closed on:  {res} 1 Feb 2023, 01:50:58
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

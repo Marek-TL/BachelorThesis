@@ -3,69 +3,57 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}31 Jan 2023, 00:23:55
-**********************************************************************************
-************ Metascore First Regress *********************************************
-**********************************************************************************
+ {txt}opened on:  {res} 1 Feb 2023, 01:51:10
 
-{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,500
-{txt}{hline 13}{c +}{hline 34}   F(3, 7496)      = {res}    31.56
-{txt}       Model {c |} {res} 14610.4254         3  4870.14181   {txt}Prob > F        ={res}    0.0000
-{txt}    Residual {c |} {res}  1156843.4     7,496  154.328095   {txt}R-squared       ={res}    0.0125
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,499
+{txt}{hline 13}{c +}{hline 34}   F(3, 7495)      = {res}    31.63
+{txt}       Model {c |} {res} 14643.0809         3  4881.02697   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 1156571.85     7,495  154.312455   {txt}R-squared       ={res}    0.0125
 {txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0121
-{txt}       Total {c |} {res} 1171453.83     7,499  156.214672   {txt}Root MSE        =   {res} 12.423
+{txt}       Total {c |} {res} 1171214.93     7,498  156.203645   {txt}Root MSE        =   {res} 12.422
 
 {txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {col 1}  meta_score{col 14}{c |} Coefficient{col 26}  Std. err.{col 38}      t{col 46}   P>|t|{col 54}     [95% con{col 67}f. interval]
 {hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{space 1}niche_width {c |}{col 14}{res}{space 2}  .173615{col 26}{space 2} .1211107{col 37}{space 1}    1.43{col 46}{space 3}0.152{col 54}{space 4} -.063796{col 67}{space 3}  .411026
-{txt}platform_w~h {c |}{col 14}{res}{space 2} 1.907262{col 26}{space 2} .1997934{col 37}{space 1}    9.55{col 46}{space 3}0.000{col 54}{space 4}  1.51561{col 67}{space 3} 2.298913
-{txt}{space 8}year {c |}{col 14}{res}{space 2} .0064545{col 26}{space 2} .0261773{col 37}{space 1}    0.25{col 46}{space 3}0.805{col 54}{space 4}-.0448603{col 67}{space 3} .0577693
-{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 54.40083{col 26}{space 2} 52.61195{col 37}{space 1}    1.03{col 46}{space 3}0.301{col 54}{space 4}-48.73334{col 67}{space 3}  157.535
+{space 1}niche_width {c |}{col 14}{res}{space 2} .1761057{col 26}{space 2} .1211191{col 37}{space 1}    1.45{col 46}{space 3}0.146{col 54}{space 4}-.0613217{col 67}{space 3} .4135332
+{txt}platform_w~h {c |}{col 14}{res}{space 2}  1.90821{col 26}{space 2} .1997846{col 37}{space 1}    9.55{col 46}{space 3}0.000{col 54}{space 4} 1.516576{col 67}{space 3} 2.299844
+{txt}{space 8}year {c |}{col 14}{res}{space 2} .0075295{col 26}{space 2} .0261885{col 37}{space 1}    0.29{col 46}{space 3}0.774{col 54}{space 4}-.0438073{col 67}{space 3} .0588663
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2}  67.2499{col 26}{space 2} .6404207{col 37}{space 1}  105.01{col 46}{space 3}0.000{col 54}{space 4}  65.9945{col 67}{space 3}  68.5053
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{txt}file {bf:Pictures/Stata/rvfplot_meta_first.png} written in PNG format
-{res}************ Metascore First Regress sktest ***************************************
-{txt}(1,331 missing values generated)
+{res}{txt}(1,332 missing values generated)
 {res}
 {txt}Skewness and kurtosis tests for normality
 {col 58}{hline 5} Joint test {hline 5}
 {col 5}Variable {c |}{col 22}Obs   Pr(skewness)   Pr(kurtosis)   Adj chi2(2)  Prob>chi2
 {hline 13}{c +}{hline 65}
-    res_meta {c |}{res}{col 16}    7,500{col 34}0.0000{col 49}0.0000{col 60}   597.15{col 74}0.0000
-**********************************************************************************
-************ Userscore First Regress *********************************************
-**********************************************************************************
+    res_meta {c |}{res}{col 16}    7,499{col 34}0.0000{col 49}0.0000{col 60}   596.96{col 74}0.0000
 
-{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,500
-{txt}{hline 13}{c +}{hline 34}   F(3, 7496)      = {res}   139.04
-{txt}       Model {c |} {res} 65762.8744         3  21920.9581   {txt}Prob > F        ={res}    0.0000
-{txt}    Residual {c |} {res} 1181776.03     7,496   157.65422   {txt}R-squared       ={res}    0.0527
-{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0523
-{txt}       Total {c |} {res} 1247538.91     7,499  166.360702   {txt}Root MSE        =   {res} 12.556
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,499
+{txt}{hline 13}{c +}{hline 34}   F(3, 7495)      = {res}   138.62
+{txt}       Model {c |} {res} 65568.8989         3  21856.2996   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res}  1181726.7     7,495  157.668672   {txt}R-squared       ={res}    0.0526
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0522
+{txt}       Total {c |} {res}  1247295.6     7,498   166.35044   {txt}Root MSE        =   {res} 12.557
 
 {txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {col 1}  user_score{col 14}{c |} Coefficient{col 26}  Std. err.{col 38}      t{col 46}   P>|t|{col 54}     [95% con{col 67}f. interval]
 {hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{space 1}niche_width {c |}{col 14}{res}{space 2}-.8295143{col 26}{space 2} .1224089{col 37}{space 1}   -6.78{col 46}{space 3}0.000{col 54}{space 4} -1.06947{col 67}{space 3}-.5895586
-{txt}platform_w~h {c |}{col 14}{res}{space 2} .3777588{col 26}{space 2} .2019349{col 37}{space 1}    1.87{col 46}{space 3}0.061{col 54}{space 4}-.0180903{col 67}{space 3} .7736079
-{txt}{space 8}year {c |}{col 14}{res}{space 2}-.5174128{col 26}{space 2} .0264578{col 37}{space 1}  -19.56{col 46}{space 3}0.000{col 54}{space 4}-.5692776{col 67}{space 3} -.465548
-{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 1112.501{col 26}{space 2} 53.17588{col 37}{space 1}   20.92{col 46}{space 3}0.000{col 54}{space 4} 1008.261{col 67}{space 3}  1216.74
+{space 1}niche_width {c |}{col 14}{res}{space 2}-.8284526{col 26}{space 2} .1224292{col 37}{space 1}   -6.77{col 46}{space 3}0.000{col 54}{space 4}-1.068448{col 67}{space 3}-.5884571
+{txt}platform_w~h {c |}{col 14}{res}{space 2} .3781632{col 26}{space 2} .2019455{col 37}{space 1}    1.87{col 46}{space 3}0.061{col 54}{space 4}-.0177066{col 67}{space 3}  .774033
+{txt}{space 8}year {c |}{col 14}{res}{space 2}-.5169546{col 26}{space 2} .0264717{col 37}{space 1}  -19.53{col 46}{space 3}0.000{col 54}{space 4}-.5688467{col 67}{space 3}-.4650626
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 80.25025{col 26}{space 2} .6473476{col 37}{space 1}  123.97{col 46}{space 3}0.000{col 54}{space 4} 78.98127{col 67}{space 3} 81.51924
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{txt}file {bf:Pictures/Stata/rvfplot_user_first.png} written in PNG format
-{res}************ Userscore First Regress sktest **************************************
-{txt}(1,331 missing values generated)
+{res}{txt}(1,332 missing values generated)
 {res}
 {txt}Skewness and kurtosis tests for normality
 {col 58}{hline 5} Joint test {hline 5}
 {col 5}Variable {c |}{col 22}Obs   Pr(skewness)   Pr(kurtosis)   Adj chi2(2)  Prob>chi2
 {hline 13}{c +}{hline 65}
-    res_user {c |}{res}{col 16}    7,500{col 34}0.0000{col 49}0.0000{col 60}        .{col 74}     .
-{txt}(bin={res}38{txt}, start={res}-58.815407{txt}, width={res}2.3227362{txt})
-{res}{txt}(bin={res}38{txt}, start={res}-56.213631{txt}, width={res}2.2277124{txt})
-{res}      {txt}name:  {res}<unnamed>
+    res_user {c |}{res}{col 16}    7,499{col 34}0.0000{col 49}0.0000{col 60}        .{col 74}     .
+      {txt}name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}31 Jan 2023, 00:24:02
+ {txt}closed on:  {res} 1 Feb 2023, 01:51:11
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
