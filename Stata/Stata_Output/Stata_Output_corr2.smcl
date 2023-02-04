@@ -3,15 +3,74 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_corr2.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 1 Feb 2023, 01:51:20
-{err}no; dataset in memory has changed since last saved
-{txt}{search r(4), local:r(4);}
-{err}variable {bf}top10_genre_meta{sf} not found
-{txt}{search r(111), local:r(111);}
+ {txt}opened on:  {res} 4 Feb 2023, 04:22:35
+
+             {txt}{c |} meta_s~e user_s~e niche_~h platfo~h     year t~e_meta t~e_user
+{hline 13}{c +}{hline 63}
+  meta_score {c |} {res}  1.0000 
+             {txt}{c |}
+             {c |}
+  user_score {c |} {res}  0.6110*  1.0000 
+             {txt}{c |}{res}   0.0000
+             {txt}{c |}
+ niche_width {c |} {res}  0.0199  -0.0655*  1.0000 
+             {txt}{c |}{res}   0.0846   0.0000
+             {txt}{c |}
+platform_w~h {c |} {res}  0.1104*  0.0078   0.0325*  1.0000 
+             {txt}{c |}{res}   0.0000   0.4984   0.0049
+             {txt}{c |}
+        year {c |} {res}  0.0079  -0.2155* -0.0466*  0.0487*  1.0000 
+             {txt}{c |}{res}   0.4950   0.0000   0.0001   0.0000
+             {txt}{c |}
+top10_genr~a {c |} {res}  0.1518*  0.0373*  0.0762*  0.0759* -0.0488*  1.0000 
+             {txt}{c |}{res}   0.0000   0.0012   0.0000   0.0000   0.0000
+             {txt}{c |}
+top10_genr~r {c |} {res}  0.0846*  0.1385* -0.1844* -0.0466*  0.0395*  0.2611*  1.0000 
+             {txt}{c |}{res}   0.0000   0.0000   0.0000   0.0001   0.0006   0.0000
+             {txt}{c |}
+top10_publ~a {c |} {res}  0.2191*  0.1720*  0.0438* -0.0126  -0.0444*  0.1205*  0.0253*
+             {txt}{c |}{res}   0.0000   0.0000   0.0001   0.2769   0.0001   0.0000   0.0285
+             {txt}{c |}
+top10_publ~r {c |} {res}  0.1704*  0.2225* -0.0948* -0.0663* -0.0997*  0.0403*  0.0714*
+             {txt}{c |}{res}   0.0000   0.0000   0.0000   0.0000   0.0000   0.0005   0.0000
+             {txt}{c |}
+top10_deve~a {c |} {res}  0.1470*  0.0539*  0.0730*  0.0897* -0.0280*  0.1279* -0.0605*
+             {txt}{c |}{res}   0.0000   0.0000   0.0000   0.0000   0.0152   0.0000   0.0000
+             {txt}{c |}
+top10_deve~r {c |} {res}  0.1077*  0.1314* -0.0462*  0.0413*  0.0016   0.0124   0.0591*
+             {txt}{c |}{res}   0.0000   0.0000   0.0001   0.0003   0.8867   0.2819   0.0000
+             {txt}{c |}
+publisher_~y {c |} {res}  0.1519*  0.1518*  0.0464*  0.0293* -0.1793*  0.0661* -0.0247*
+             {txt}{c |}{res}   0.0000   0.0000   0.0001   0.0111   0.0000   0.0000   0.0323
+             {txt}{c |}
+developer_~y {c |} {res}  0.1560*  0.1356* -0.0202   0.0887* -0.0534*  0.0642*  0.0573*
+             {txt}{c |}{res}   0.0000   0.0000   0.0802   0.0000   0.0000   0.0000   0.0000
+             {txt}{c |}
+
+             {c |} top10_.. top10_.. top10_.. top10_.. publis~y develo~y
+{hline 13}{c +}{hline 54}
+top10_publ~a {c |} {res}  1.0000 
+             {txt}{c |}
+             {c |}
+top10_publ~r {c |} {res}  0.5215*  1.0000 
+             {txt}{c |}{res}   0.0000
+             {txt}{c |}
+top10_deve~a {c |} {res}  0.3192*  0.0891*  1.0000 
+             {txt}{c |}{res}   0.0000   0.0000
+             {txt}{c |}
+top10_deve~r {c |} {res}  0.2362*  0.3388*  0.5305*  1.0000 
+             {txt}{c |}{res}   0.0000   0.0000   0.0000
+             {txt}{c |}
+publisher_~y {c |} {res}  0.4604*  0.5682*  0.1950*  0.2599*  1.0000 
+             {txt}{c |}{res}   0.0000   0.0000   0.0000   0.0000
+             {txt}{c |}
+developer_~y {c |} {res}  0.2291*  0.3049*  0.5493*  0.7869*  0.3591*  1.0000 
+             {txt}{c |}{res}   0.0000   0.0000   0.0000   0.0000   0.0000
+             {txt}{c |}
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_corr2.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 1 Feb 2023, 01:51:20
+ {txt}closed on:  {res} 4 Feb 2023, 04:22:35
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

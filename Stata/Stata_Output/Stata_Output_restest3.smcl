@@ -3,27 +3,27 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest3.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 1 Feb 2023, 01:51:40
+ {txt}opened on:  {res} 4 Feb 2023, 01:09:00
 **********************************************************************************
 ************ Metascore ohne Dummy ************************************************
 **********************************************************************************
 
 {txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,492
-{txt}{hline 13}{c +}{hline 34}   F(5, 7486)      = {res}    71.49
-{txt}       Model {c |} {res} 53323.9368         5  10664.7874   {txt}Prob > F        ={res}    0.0000
-{txt}    Residual {c |} {res} 1116765.74     7,486  149.180569   {txt}R-squared       ={res}    0.0456
-{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0449
-{txt}       Total {c |} {res} 1170089.68     7,491  156.199396   {txt}Root MSE        =   {res} 12.214
+{txt}{hline 13}{c +}{hline 34}   F(5, 7486)      = {res}    71.22
+{txt}       Model {c |} {res} 53130.1575         5  10626.0315   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 1116959.52     7,486  149.206455   {txt}R-squared       ={res}    0.0454
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0448
+{txt}       Total {c |} {res} 1170089.68     7,491  156.199396   {txt}Root MSE        =   {res} 12.215
 
 {txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {col 1}  meta_score{col 14}{c |} Coefficient{col 26}  Std. err.{col 38}      t{col 46}   P>|t|{col 54}     [95% con{col 67}f. interval]
 {hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{space 1}niche_width {c |}{col 14}{res}{space 2} .1656848{col 26}{space 2} .1193638{col 37}{space 1}    1.39{col 46}{space 3}0.165{col 54}{space 4}-.0683018{col 67}{space 3} .3996715
-{txt}platform_w~h {c |}{col 14}{res}{space 2} 1.673791{col 26}{space 2} .1971493{col 37}{space 1}    8.49{col 46}{space 3}0.000{col 54}{space 4} 1.287323{col 67}{space 3} 2.060259
-{txt}{space 8}year {c |}{col 14}{res}{space 2} .0666046{col 26}{space 2} .0261863{col 37}{space 1}    2.54{col 46}{space 3}0.011{col 54}{space 4} .0152721{col 67}{space 3} .1179372
-{txt}publisher_~y {c |}{col 14}{res}{space 2} .0122374{col 26}{space 2} .0013186{col 37}{space 1}    9.28{col 46}{space 3}0.000{col 54}{space 4} .0096526{col 67}{space 3} .0148221
-{txt}developer_~y {c |}{col 14}{res}{space 2} .0453023{col 26}{space 2} .0050488{col 37}{space 1}    8.97{col 46}{space 3}0.000{col 54}{space 4} .0354053{col 67}{space 3} .0551994
-{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 64.52578{col 26}{space 2} .6561801{col 37}{space 1}   98.34{col 46}{space 3}0.000{col 54}{space 4} 63.23948{col 67}{space 3} 65.81207
+{space 1}niche_width {c |}{col 14}{res}{space 2} .1560592{col 26}{space 2} .1193262{col 37}{space 1}    1.31{col 46}{space 3}0.191{col 54}{space 4}-.0778537{col 67}{space 3} .3899721
+{txt}platform_w~h {c |}{col 14}{res}{space 2} 1.657888{col 26}{space 2} .1973185{col 37}{space 1}    8.40{col 46}{space 3}0.000{col 54}{space 4} 1.271089{col 67}{space 3} 2.044688
+{txt}{space 8}year {c |}{col 14}{res}{space 2} .0698952{col 26}{space 2}  .026184{col 37}{space 1}    2.67{col 46}{space 3}0.008{col 54}{space 4} .0185672{col 67}{space 3} .1212231
+{txt}publisher_~y {c |}{col 14}{res}{space 2} .0123144{col 26}{space 2}  .001317{col 37}{space 1}    9.35{col 46}{space 3}0.000{col 54}{space 4} .0097328{col 67}{space 3}  .014896
+{txt}developer_~y {c |}{col 14}{res}{space 2} .0500995{col 26}{space 2} .0056295{col 37}{space 1}    8.90{col 46}{space 3}0.000{col 54}{space 4} .0390641{col 67}{space 3}  .061135
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 64.52547{col 26}{space 2} .6562552{col 37}{space 1}   98.32{col 46}{space 3}0.000{col 54}{space 4} 63.23903{col 67}{space 3} 65.81191
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {res}{txt}file {bf:Pictures/Stata/rvfplot_meta_ohneDummy.png} written in PNG format
 {res}**********************************************************************************
@@ -31,61 +31,61 @@
 **********************************************************************************
 
 {txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,493
-{txt}{hline 13}{c +}{hline 34}   F(3, 7489)      = {res}    92.60
-{txt}       Model {c |} {res} 44553.7111         3   14851.237   {txt}Prob > F        ={res}    0.0000
-{txt}    Residual {c |} {res} 1201124.33     7,489  160.385142   {txt}R-squared       ={res}    0.0358
-{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0354
-{txt}       Total {c |} {res} 1245678.04     7,492  166.267757   {txt}Root MSE        =   {res} 12.664
+{txt}{hline 13}{c +}{hline 34}   F(3, 7489)      = {res}    91.72
+{txt}       Model {c |} {res} 44144.9649         3  14714.9883   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 1201533.07     7,489  160.439721   {txt}R-squared       ={res}    0.0354
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0351
+{txt}       Total {c |} {res} 1245678.04     7,492  166.267757   {txt}Root MSE        =   {res} 12.666
 
 {txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {col 1}  user_score{col 14}{c |} Coefficient{col 26}  Std. err.{col 38}      t{col 46}   P>|t|{col 54}     [95% con{col 67}f. interval]
 {hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{space 1}niche_width {c |}{col 14}{res}{space 2}-.7509734{col 26}{space 2} .1235828{col 37}{space 1}   -6.08{col 46}{space 3}0.000{col 54}{space 4}-.9932304{col 67}{space 3}-.5087164
-{txt}publisher_~y {c |}{col 14}{res}{space 2} .0134551{col 26}{space 2} .0013462{col 37}{space 1}    9.99{col 46}{space 3}0.000{col 54}{space 4} .0108162{col 67}{space 3} .0160941
-{txt}developer_~y {c |}{col 14}{res}{space 2} .0395063{col 26}{space 2} .0052188{col 37}{space 1}    7.57{col 46}{space 3}0.000{col 54}{space 4} .0292761{col 67}{space 3} .0497365
-{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 70.75753{col 26}{space 2} .4714249{col 37}{space 1}  150.09{col 46}{space 3}0.000{col 54}{space 4}  69.8334{col 67}{space 3} 71.68165
+{space 1}niche_width {c |}{col 14}{res}{space 2}-.7606779{col 26}{space 2} .1235518{col 37}{space 1}   -6.16{col 46}{space 3}0.000{col 54}{space 4}-1.002874{col 67}{space 3}-.5184817
+{txt}publisher_~y {c |}{col 14}{res}{space 2} .0135508{col 26}{space 2} .0013458{col 37}{space 1}   10.07{col 46}{space 3}0.000{col 54}{space 4} .0109126{col 67}{space 3}  .016189
+{txt}developer_~y {c |}{col 14}{res}{space 2} .0430327{col 26}{space 2} .0058164{col 37}{space 1}    7.40{col 46}{space 3}0.000{col 54}{space 4}  .031631{col 67}{space 3} .0544344
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 70.79268{col 26}{space 2} .4710668{col 37}{space 1}  150.28{col 46}{space 3}0.000{col 54}{space 4} 69.86926{col 67}{space 3} 71.71611
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {res}{txt}file {bf:Pictures/Stata/rvfplot_user_ohneDummy.png} written in PNG format
 {res}**********************************************************************************
 ************ Metascore nur Dummy *************************************************
 **********************************************************************************
 
-{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     8,827
-{txt}{hline 13}{c +}{hline 34}   F(4, 8822)      = {res}    59.38
-{txt}       Model {c |} {res} 34347.8591         4  8586.96477   {txt}Prob > F        ={res}    0.0000
-{txt}    Residual {c |} {res} 1275774.15     8,822  144.612804   {txt}R-squared       ={res}    0.0262
-{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0258
-{txt}       Total {c |} {res} 1310122.01     8,826  148.438932   {txt}Root MSE        =   {res} 12.026
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,500
+{txt}{hline 13}{c +}{hline 34}   F(4, 7495)      = {res}    76.86
+{txt}       Model {c |} {res} 46160.6271         4  11540.1568   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res}  1125293.2     7,495  150.139186   {txt}R-squared       ={res}    0.0394
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0389
+{txt}       Total {c |} {res} 1171453.83     7,499  156.214672   {txt}Root MSE        =   {res} 12.253
 
 {txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {col 1}  meta_score{col 14}{c |} Coefficient{col 26}  Std. err.{col 38}      t{col 46}   P>|t|{col 54}     [95% con{col 67}f. interval]
 {hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{space 1}niche_width {c |}{col 14}{res}{space 2} .1660018{col 26}{space 2} .1097469{col 37}{space 1}    1.51{col 46}{space 3}0.130{col 54}{space 4}-.0491278{col 67}{space 3} .3811313
-{txt}top10_genr~r {c |}{col 14}{res}{space 2} 1.743743{col 26}{space 2} .3283701{col 37}{space 1}    5.31{col 46}{space 3}0.000{col 54}{space 4} 1.100061{col 67}{space 3} 2.387425
-{txt}top10_publ~r {c |}{col 14}{res}{space 2} 4.171285{col 26}{space 2}  .366208{col 37}{space 1}   11.39{col 46}{space 3}0.000{col 54}{space 4} 3.453432{col 67}{space 3} 4.889137
-{txt}top10_deve~r {c |}{col 14}{res}{space 2} 1.701825{col 26}{space 2}  .506924{col 37}{space 1}    3.36{col 46}{space 3}0.001{col 54}{space 4} .7081355{col 67}{space 3} 2.695514
-{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 69.14182{col 26}{space 2} .4082103{col 37}{space 1}  169.38{col 46}{space 3}0.000{col 54}{space 4} 68.34163{col 67}{space 3}   69.942
+{space 1}niche_width {c |}{col 14}{res}{space 2} .5429217{col 26}{space 2} .1217657{col 37}{space 1}    4.46{col 46}{space 3}0.000{col 54}{space 4} .3042268{col 67}{space 3} .7816167
+{txt}top10_genr~r {c |}{col 14}{res}{space 2} 2.668562{col 26}{space 2} .3842964{col 37}{space 1}    6.94{col 46}{space 3}0.000{col 54}{space 4} 1.915233{col 67}{space 3} 3.421891
+{txt}top10_publ~r {c |}{col 14}{res}{space 2} 4.748673{col 26}{space 2} .3796034{col 37}{space 1}   12.51{col 46}{space 3}0.000{col 54}{space 4} 4.004544{col 67}{space 3} 5.492803
+{txt}top10_deve~r {c |}{col 14}{res}{space 2} 2.359487{col 26}{space 2} .5244571{col 37}{space 1}    4.50{col 46}{space 3}0.000{col 54}{space 4} 1.331404{col 67}{space 3}  3.38757
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2}  67.0635{col 26}{space 2} .4706684{col 37}{space 1}  142.49{col 46}{space 3}0.000{col 54}{space 4} 66.14086{col 67}{space 3} 67.98614
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {res}{txt}file {bf:Pictures/Stata/rvfplot_meta_Dummy.png} written in PNG format
 {res}**********************************************************************************
 ************ Userscore nur Dummy *************************************************
 **********************************************************************************
 
-{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     8,827
-{txt}{hline 13}{c +}{hline 34}   F(4, 8822)      = {res}    78.54
-{txt}       Model {c |} {res}  52598.099         4  13149.5247   {txt}Prob > F        ={res}    0.0000
-{txt}    Residual {c |} {res}    1476950     8,822  167.416685   {txt}R-squared       ={res}    0.0344
-{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0340
-{txt}       Total {c |} {res}  1529548.1     8,826   173.30026   {txt}Root MSE        =   {res} 12.939
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,500
+{txt}{hline 13}{c +}{hline 34}   F(4, 7495)      = {res}    68.77
+{txt}       Model {c |} {res}    44163.1         4   11040.775   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 1203375.81     7,495  160.557146   {txt}R-squared       ={res}    0.0354
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0349
+{txt}       Total {c |} {res} 1247538.91     7,499  166.360702   {txt}Root MSE        =   {res} 12.671
 
 {txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {col 1}  user_score{col 14}{c |} Coefficient{col 26}  Std. err.{col 38}      t{col 46}   P>|t|{col 54}     [95% con{col 67}f. interval]
 {hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{space 1}niche_width {c |}{col 14}{res}{space 2}-.6574411{col 26}{space 2}  .118119{col 37}{space 1}   -5.57{col 46}{space 3}0.000{col 54}{space 4}-.8889818{col 67}{space 3}-.4259004
-{txt}top10_genr~a {c |}{col 14}{res}{space 2}  .389383{col 26}{space 2} .4756224{col 37}{space 1}    0.82{col 46}{space 3}0.413{col 54}{space 4}-.5429476{col 67}{space 3} 1.321714
-{txt}top10_publ~a {c |}{col 14}{res}{space 2} 6.614618{col 26}{space 2} .3893428{col 37}{space 1}   16.99{col 46}{space 3}0.000{col 54}{space 4} 5.851415{col 67}{space 3}  7.37782
-{txt}top10_deve~a {c |}{col 14}{res}{space 2}-2.459262{col 26}{space 2}  .592661{col 37}{space 1}   -4.15{col 46}{space 3}0.000{col 54}{space 4}-3.621015{col 67}{space 3}-1.297508
-{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 71.15965{col 26}{space 2} .4198224{col 37}{space 1}  169.50{col 46}{space 3}0.000{col 54}{space 4}  70.3367{col 67}{space 3}  71.9826
+{space 1}niche_width {c |}{col 14}{res}{space 2}-.8132109{col 26}{space 2} .1239543{col 37}{space 1}   -6.56{col 46}{space 3}0.000{col 54}{space 4}-1.056196{col 67}{space 3}-.5702257
+{txt}top10_genr~a {c |}{col 14}{res}{space 2} .8951786{col 26}{space 2} .4666478{col 37}{space 1}    1.92{col 46}{space 3}0.055{col 54}{space 4}-.0195821{col 67}{space 3} 1.809939
+{txt}top10_publ~a {c |}{col 14}{res}{space 2} 5.629909{col 26}{space 2} .3931306{col 37}{space 1}   14.32{col 46}{space 3}0.000{col 54}{space 4} 4.859263{col 67}{space 3} 6.400556
+{txt}top10_deve~a {c |}{col 14}{res}{space 2} .0814707{col 26}{space 2} .5993977{col 37}{space 1}    0.14{col 46}{space 3}0.892{col 54}{space 4}-1.093517{col 67}{space 3} 1.256458
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 72.02476{col 26}{space 2} .4544166{col 37}{space 1}  158.50{col 46}{space 3}0.000{col 54}{space 4} 71.13398{col 67}{space 3} 72.91555
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {res}{txt}file {bf:Pictures/Stata/rvfplot_user_Dummy.png} written in PNG format
 {res}**********************************************************************************
@@ -93,24 +93,24 @@
 **********************************************************************************
 
 {txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,492
-{txt}{hline 13}{c +}{hline 34}   F(8, 7483)      = {res}    62.33
-{txt}       Model {c |} {res} 73103.2962         8  9137.91202   {txt}Prob > F        ={res}    0.0000
-{txt}    Residual {c |} {res} 1096986.38     7,483  146.597138   {txt}R-squared       ={res}    0.0625
-{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0615
-{txt}       Total {c |} {res} 1170089.68     7,491  156.199396   {txt}Root MSE        =   {res} 12.108
+{txt}{hline 13}{c +}{hline 34}   F(8, 7483)      = {res}    64.35
+{txt}       Model {c |} {res}  75319.073         8  9414.88412   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res}  1094770.6     7,483   146.30103   {txt}R-squared       ={res}    0.0644
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0634
+{txt}       Total {c |} {res} 1170089.68     7,491  156.199396   {txt}Root MSE        =   {res} 12.095
 
 {txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {col 1}  meta_score{col 14}{c |} Coefficient{col 26}  Std. err.{col 38}      t{col 46}   P>|t|{col 54}     [95% con{col 67}f. interval]
 {hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{space 1}niche_width {c |}{col 14}{res}{space 2} .3410103{col 26}{space 2} .1199388{col 37}{space 1}    2.84{col 46}{space 3}0.004{col 54}{space 4} .1058965{col 67}{space 3} .5761242
-{txt}platform_w~h {c |}{col 14}{res}{space 2} 1.804418{col 26}{space 2} .1975236{col 37}{space 1}    9.14{col 46}{space 3}0.000{col 54}{space 4} 1.417216{col 67}{space 3} 2.191619
-{txt}{space 8}year {c |}{col 14}{res}{space 2} .0822078{col 26}{space 2} .0260557{col 37}{space 1}    3.16{col 46}{space 3}0.002{col 54}{space 4} .0311313{col 67}{space 3} .1332842
-{txt}top10_genr~r {c |}{col 14}{res}{space 2} 2.050895{col 26}{space 2} .3550846{col 37}{space 1}    5.78{col 46}{space 3}0.000{col 54}{space 4}  1.35483{col 67}{space 3} 2.746961
-{txt}top10_publ~r {c |}{col 14}{res}{space 2}  4.40824{col 26}{space 2} .4607306{col 37}{space 1}    9.57{col 46}{space 3}0.000{col 54}{space 4} 3.505078{col 67}{space 3} 5.311402
-{txt}top10_deve~r {c |}{col 14}{res}{space 2}-3.956598{col 26}{space 2} .8323986{col 37}{space 1}   -4.75{col 46}{space 3}0.000{col 54}{space 4}-5.588333{col 67}{space 3}-2.324863
-{txt}publisher_~y {c |}{col 14}{res}{space 2} .0038235{col 26}{space 2}  .001571{col 37}{space 1}    2.43{col 46}{space 3}0.015{col 54}{space 4} .0007439{col 67}{space 3}  .006903
-{txt}developer_~y {c |}{col 14}{res}{space 2} .0632734{col 26}{space 2} .0076541{col 37}{space 1}    8.27{col 46}{space 3}0.000{col 54}{space 4} .0482692{col 67}{space 3} .0782776
-{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 63.16606{col 26}{space 2} .6650311{col 37}{space 1}   94.98{col 46}{space 3}0.000{col 54}{space 4} 61.86242{col 67}{space 3} 64.46971
+{space 1}niche_width {c |}{col 14}{res}{space 2} .4549409{col 26}{space 2} .1210814{col 37}{space 1}    3.76{col 46}{space 3}0.000{col 54}{space 4} .2175874{col 67}{space 3} .6922944
+{txt}platform_w~h {c |}{col 14}{res}{space 2} 1.897308{col 26}{space 2} .1968038{col 37}{space 1}    9.64{col 46}{space 3}0.000{col 54}{space 4} 1.511517{col 67}{space 3} 2.283099
+{txt}{space 8}year {c |}{col 14}{res}{space 2} .0697556{col 26}{space 2} .0259994{col 37}{space 1}    2.68{col 46}{space 3}0.007{col 54}{space 4} .0187894{col 67}{space 3} .1207218
+{txt}top10_genr~r {c |}{col 14}{res}{space 2}  2.81134{col 26}{space 2} .3811256{col 37}{space 1}    7.38{col 46}{space 3}0.000{col 54}{space 4} 2.064226{col 67}{space 3} 3.558453
+{txt}top10_publ~r {c |}{col 14}{res}{space 2} 4.143815{col 26}{space 2} .4491341{col 37}{space 1}    9.23{col 46}{space 3}0.000{col 54}{space 4} 3.263386{col 67}{space 3} 5.024244
+{txt}top10_deve~r {c |}{col 14}{res}{space 2}-2.869714{col 26}{space 2} .8115598{col 37}{space 1}   -3.54{col 46}{space 3}0.000{col 54}{space 4}  -4.4606{col 67}{space 3}-1.278829
+{txt}publisher_~y {c |}{col 14}{res}{space 2} .0049632{col 26}{space 2} .0015459{col 37}{space 1}    3.21{col 46}{space 3}0.001{col 54}{space 4} .0019328{col 67}{space 3} .0079937
+{txt}developer_~y {c |}{col 14}{res}{space 2} .0643654{col 26}{space 2}  .008771{col 37}{space 1}    7.34{col 46}{space 3}0.000{col 54}{space 4} .0471717{col 67}{space 3}  .081559
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 62.71499{col 26}{space 2} .6690018{col 37}{space 1}   93.74{col 46}{space 3}0.000{col 54}{space 4} 61.40355{col 67}{space 3} 64.02642
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {res}{txt}file {bf:Pictures/Stata/rvfplot_meta_all_getrennt.png} written in PNG format
 {res}**********************************************************************************
@@ -118,30 +118,30 @@
 **********************************************************************************
 
 {txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,492
-{txt}{hline 13}{c +}{hline 34}   F(8, 7483)      = {res}    97.25
-{txt}       Model {c |} {res} 117295.822         8  14661.9777   {txt}Prob > F        ={res}    0.0000
-{txt}    Residual {c |} {res} 1128139.15     7,483  150.760276   {txt}R-squared       ={res}    0.0942
-{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0932
-{txt}       Total {c |} {res} 1245434.97     7,491  166.257505   {txt}Root MSE        =   {res} 12.278
+{txt}{hline 13}{c +}{hline 34}   F(8, 7483)      = {res}    93.04
+{txt}       Model {c |} {res} 112672.485         8  14084.0606   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 1132762.48     7,483  151.378121   {txt}R-squared       ={res}    0.0905
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0895
+{txt}       Total {c |} {res} 1245434.97     7,491  166.257505   {txt}Root MSE        =   {res} 12.304
 
 {txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {col 1}  user_score{col 14}{c |} Coefficient{col 26}  Std. err.{col 38}      t{col 46}   P>|t|{col 54}     [95% con{col 67}f. interval]
 {hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{space 1}niche_width {c |}{col 14}{res}{space 2} -.775472{col 26}{space 2} .1213266{col 37}{space 1}   -6.39{col 46}{space 3}0.000{col 54}{space 4}-1.013306{col 67}{space 3}-.5376376
-{txt}platform_w~h {c |}{col 14}{res}{space 2} .3512112{col 26}{space 2}  .199201{col 37}{space 1}    1.76{col 46}{space 3}0.078{col 54}{space 4}-.0392787{col 67}{space 3}  .741701
-{txt}{space 8}year {c |}{col 14}{res}{space 2}-.4804925{col 26}{space 2} .0264528{col 37}{space 1}  -18.16{col 46}{space 3}0.000{col 54}{space 4}-.5323473{col 67}{space 3}-.4286376
-{txt}top10_genr~a {c |}{col 14}{res}{space 2} .7311329{col 26}{space 2} .4808507{col 37}{space 1}    1.52{col 46}{space 3}0.128{col 54}{space 4}-.2114697{col 67}{space 3} 1.673735
-{txt}top10_publ~a {c |}{col 14}{res}{space 2} 5.044996{col 26}{space 2} .4205294{col 37}{space 1}   12.00{col 46}{space 3}0.000{col 54}{space 4}  4.22064{col 67}{space 3} 5.869352
-{txt}top10_deve~a {c |}{col 14}{res}{space 2}-4.645136{col 26}{space 2} .6856721{col 37}{space 1}   -6.77{col 46}{space 3}0.000{col 54}{space 4}-5.989246{col 67}{space 3}-3.301026
-{txt}publisher_~y {c |}{col 14}{res}{space 2} .0015791{col 26}{space 2} .0014706{col 37}{space 1}    1.07{col 46}{space 3}0.283{col 54}{space 4}-.0013038{col 67}{space 3}  .004462
-{txt}developer_~y {c |}{col 14}{res}{space 2} .0569918{col 26}{space 2} .0058891{col 37}{space 1}    9.68{col 46}{space 3}0.000{col 54}{space 4} .0454475{col 67}{space 3}  .068536
-{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 77.61023{col 26}{space 2} .6666587{col 37}{space 1}  116.42{col 46}{space 3}0.000{col 54}{space 4} 76.30339{col 67}{space 3} 78.91707
+{space 1}niche_width {c |}{col 14}{res}{space 2}-.8419635{col 26}{space 2}  .121017{col 37}{space 1}   -6.96{col 46}{space 3}0.000{col 54}{space 4}-1.079191{col 67}{space 3}-.6047361
+{txt}platform_w~h {c |}{col 14}{res}{space 2} .2865412{col 26}{space 2} .1997401{col 37}{space 1}    1.43{col 46}{space 3}0.151{col 54}{space 4}-.1050056{col 67}{space 3} .6780881
+{txt}{space 8}year {c |}{col 14}{res}{space 2}-.4799982{col 26}{space 2} .0264289{col 37}{space 1}  -18.16{col 46}{space 3}0.000{col 54}{space 4}-.5318064{col 67}{space 3}-.4281901
+{txt}top10_genr~a {c |}{col 14}{res}{space 2} .5429573{col 26}{space 2} .4546416{col 37}{space 1}    1.19{col 46}{space 3}0.232{col 54}{space 4} -.348268{col 67}{space 3} 1.434183
+{txt}top10_publ~a {c |}{col 14}{res}{space 2} 4.890785{col 26}{space 2} .4246732{col 37}{space 1}   11.52{col 46}{space 3}0.000{col 54}{space 4} 4.058306{col 67}{space 3} 5.723264
+{txt}top10_deve~a {c |}{col 14}{res}{space 2}-3.175128{col 26}{space 2} .6864824{col 37}{space 1}   -4.63{col 46}{space 3}0.000{col 54}{space 4}-4.520827{col 67}{space 3} -1.82943
+{txt}publisher_~y {c |}{col 14}{res}{space 2} .0021912{col 26}{space 2} .0014699{col 37}{space 1}    1.49{col 46}{space 3}0.136{col 54}{space 4}-.0006901{col 67}{space 3} .0050726
+{txt}developer_~y {c |}{col 14}{res}{space 2} .0546986{col 26}{space 2} .0066766{col 37}{space 1}    8.19{col 46}{space 3}0.000{col 54}{space 4} .0416106{col 67}{space 3} .0677866
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 77.94068{col 26}{space 2} .6644212{col 37}{space 1}  117.31{col 46}{space 3}0.000{col 54}{space 4} 76.63823{col 67}{space 3} 79.24314
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {res}{txt}file {bf:Pictures/Stata/rvfplot_user_all_getrennt.png} written in PNG format
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest3.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 1 Feb 2023, 01:52:01
+ {txt}closed on:  {res} 4 Feb 2023, 01:09:19
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

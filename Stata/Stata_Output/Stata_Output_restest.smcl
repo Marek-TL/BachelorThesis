@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 1 Feb 2023, 01:51:10
+ {txt}opened on:  {res} 4 Feb 2023, 01:08:32
 
 {txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,499
 {txt}{hline 13}{c +}{hline 34}   F(3, 7495)      = {res}    31.63
@@ -20,7 +20,7 @@
 {txt}{space 8}year {c |}{col 14}{res}{space 2} .0075295{col 26}{space 2} .0261885{col 37}{space 1}    0.29{col 46}{space 3}0.774{col 54}{space 4}-.0438073{col 67}{space 3} .0588663
 {txt}{space 7}_cons {c |}{col 14}{res}{space 2}  67.2499{col 26}{space 2} .6404207{col 37}{space 1}  105.01{col 46}{space 3}0.000{col 54}{space 4}  65.9945{col 67}{space 3}  68.5053
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{txt}(1,332 missing values generated)
+{res}{txt}(1 missing value generated)
 {res}
 {txt}Skewness and kurtosis tests for normality
 {col 58}{hline 5} Joint test {hline 5}
@@ -43,7 +43,7 @@
 {txt}{space 8}year {c |}{col 14}{res}{space 2}-.5169546{col 26}{space 2} .0264717{col 37}{space 1}  -19.53{col 46}{space 3}0.000{col 54}{space 4}-.5688467{col 67}{space 3}-.4650626
 {txt}{space 7}_cons {c |}{col 14}{res}{space 2} 80.25025{col 26}{space 2} .6473476{col 37}{space 1}  123.97{col 46}{space 3}0.000{col 54}{space 4} 78.98127{col 67}{space 3} 81.51924
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{txt}(1,332 missing values generated)
+{res}{txt}(1 missing value generated)
 {res}
 {txt}Skewness and kurtosis tests for normality
 {col 58}{hline 5} Joint test {hline 5}
@@ -53,7 +53,7 @@
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 1 Feb 2023, 01:51:11
+ {txt}closed on:  {res} 4 Feb 2023, 01:08:32
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
