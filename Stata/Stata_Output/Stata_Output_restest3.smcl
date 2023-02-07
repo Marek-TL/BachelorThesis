@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest3.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 4 Feb 2023, 01:09:00
+ {txt}opened on:  {res} 7 Feb 2023, 02:06:21
 **********************************************************************************
 ************ Metascore ohne Dummy ************************************************
 **********************************************************************************
@@ -25,27 +25,51 @@
 {txt}developer_~y {c |}{col 14}{res}{space 2} .0500995{col 26}{space 2} .0056295{col 37}{space 1}    8.90{col 46}{space 3}0.000{col 54}{space 4} .0390641{col 67}{space 3}  .061135
 {txt}{space 7}_cons {c |}{col 14}{res}{space 2} 64.52547{col 26}{space 2} .6562552{col 37}{space 1}   98.32{col 46}{space 3}0.000{col 54}{space 4} 63.23903{col 67}{space 3} 65.81191
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{txt}file {bf:Pictures/Stata/rvfplot_meta_ohneDummy.png} written in PNG format
+{res}************ VIF Tabelle *******************************************************
+
+{txt}    Variable {c |}       VIF       1/VIF  
+{hline 13}{c +}{hline 22}
+publisher_~y {c |} {res}     1.19    0.843228
+{txt}developer_~y {c |} {res}     1.16    0.863393
+{txt}{space 8}year {c |} {res}     1.04    0.963298
+{txt}platform_w~h {c |} {res}     1.01    0.987901
+{txt}{space 1}niche_width {c |} {res}     1.01    0.993515
+{txt}{hline 13}{c +}{hline 22}
+    Mean VIF {c |} {res}     1.08
+{txt}file {bf:Pictures/Stata/rvfplot_meta_ohneDummy.png} written in PNG format
 {res}**********************************************************************************
 ************ Userscore ohne Dummy ************************************************
 **********************************************************************************
 
-{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,493
-{txt}{hline 13}{c +}{hline 34}   F(3, 7489)      = {res}    91.72
-{txt}       Model {c |} {res} 44144.9649         3  14714.9883   {txt}Prob > F        ={res}    0.0000
-{txt}    Residual {c |} {res} 1201533.07     7,489  160.439721   {txt}R-squared       ={res}    0.0354
-{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0351
-{txt}       Total {c |} {res} 1245678.04     7,492  166.267757   {txt}Root MSE        =   {res} 12.666
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     7,492
+{txt}{hline 13}{c +}{hline 34}   F(5, 7486)      = {res}   118.82
+{txt}       Model {c |} {res} 91573.9949         5   18314.799   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 1153860.97     7,486   154.13585   {txt}R-squared       ={res}    0.0735
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0729
+{txt}       Total {c |} {res} 1245434.97     7,491  166.257505   {txt}Root MSE        =   {res} 12.415
 
 {txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {col 1}  user_score{col 14}{c |} Coefficient{col 26}  Std. err.{col 38}      t{col 46}   P>|t|{col 54}     [95% con{col 67}f. interval]
 {hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{space 1}niche_width {c |}{col 14}{res}{space 2}-.7606779{col 26}{space 2} .1235518{col 37}{space 1}   -6.16{col 46}{space 3}0.000{col 54}{space 4}-1.002874{col 67}{space 3}-.5184817
-{txt}publisher_~y {c |}{col 14}{res}{space 2} .0135508{col 26}{space 2} .0013458{col 37}{space 1}   10.07{col 46}{space 3}0.000{col 54}{space 4} .0109126{col 67}{space 3}  .016189
-{txt}developer_~y {c |}{col 14}{res}{space 2} .0430327{col 26}{space 2} .0058164{col 37}{space 1}    7.40{col 46}{space 3}0.000{col 54}{space 4}  .031631{col 67}{space 3} .0544344
-{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 70.79268{col 26}{space 2} .4710668{col 37}{space 1}  150.28{col 46}{space 3}0.000{col 54}{space 4} 69.86926{col 67}{space 3} 71.71611
+{space 1}niche_width {c |}{col 14}{res}{space 2}-.8435379{col 26}{space 2} .1212813{col 37}{space 1}   -6.96{col 46}{space 3}0.000{col 54}{space 4}-1.081283{col 67}{space 3}-.6057924
+{txt}platform_w~h {c |}{col 14}{res}{space 2} .1648718{col 26}{space 2} .2005514{col 37}{space 1}    0.82{col 46}{space 3}0.411{col 54}{space 4}-.2282654{col 67}{space 3}  .558009
+{txt}{space 8}year {c |}{col 14}{res}{space 2}  -.46683{col 26}{space 2}  .026613{col 37}{space 1}  -17.54{col 46}{space 3}0.000{col 54}{space 4}-.5189989{col 67}{space 3}-.4146611
+{txt}publisher_~y {c |}{col 14}{res}{space 2} .0095778{col 26}{space 2} .0013385{col 37}{space 1}    7.16{col 46}{space 3}0.000{col 54}{space 4} .0069539{col 67}{space 3} .0122017
+{txt}developer_~y {c |}{col 14}{res}{space 2} .0436786{col 26}{space 2} .0057217{col 37}{space 1}    7.63{col 46}{space 3}0.000{col 54}{space 4} .0324624{col 67}{space 3} .0548948
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 78.05421{col 26}{space 2} .6670076{col 37}{space 1}  117.02{col 46}{space 3}0.000{col 54}{space 4} 76.74669{col 67}{space 3} 79.36174
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{txt}file {bf:Pictures/Stata/rvfplot_user_ohneDummy.png} written in PNG format
+{res}************ VIF Tabelle *******************************************************
+
+{txt}    Variable {c |}       VIF       1/VIF  
+{hline 13}{c +}{hline 22}
+publisher_~y {c |} {res}     1.19    0.843228
+{txt}developer_~y {c |} {res}     1.16    0.863393
+{txt}{space 8}year {c |} {res}     1.04    0.963298
+{txt}platform_w~h {c |} {res}     1.01    0.987901
+{txt}{space 1}niche_width {c |} {res}     1.01    0.993515
+{txt}{hline 13}{c +}{hline 22}
+    Mean VIF {c |} {res}     1.08
+{txt}file {bf:Pictures/Stata/rvfplot_user_ohneDummy.png} written in PNG format
 {res}**********************************************************************************
 ************ Metascore nur Dummy *************************************************
 **********************************************************************************
@@ -66,7 +90,17 @@
 {txt}top10_deve~r {c |}{col 14}{res}{space 2} 2.359487{col 26}{space 2} .5244571{col 37}{space 1}    4.50{col 46}{space 3}0.000{col 54}{space 4} 1.331404{col 67}{space 3}  3.38757
 {txt}{space 7}_cons {c |}{col 14}{res}{space 2}  67.0635{col 26}{space 2} .4706684{col 37}{space 1}  142.49{col 46}{space 3}0.000{col 54}{space 4} 66.14086{col 67}{space 3} 67.98614
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{txt}file {bf:Pictures/Stata/rvfplot_meta_Dummy.png} written in PNG format
+{res}************ VIF Tabelle *******************************************************
+
+{txt}    Variable {c |}       VIF       1/VIF  
+{hline 13}{c +}{hline 22}
+top10_publ~r {c |} {res}     1.14    0.877523
+{txt}top10_deve~r {c |} {res}     1.13    0.883929
+{txt}{space 1}niche_width {c |} {res}     1.04    0.959210
+{txt}top10_genr~r {c |} {res}     1.04    0.961868
+{txt}{hline 13}{c +}{hline 22}
+    Mean VIF {c |} {res}     1.09
+{txt}file {bf:Pictures/Stata/rvfplot_meta_Dummy.png} written in PNG format
 {res}**********************************************************************************
 ************ Userscore nur Dummy *************************************************
 **********************************************************************************
@@ -87,7 +121,17 @@
 {txt}top10_deve~a {c |}{col 14}{res}{space 2} .0814707{col 26}{space 2} .5993977{col 37}{space 1}    0.14{col 46}{space 3}0.892{col 54}{space 4}-1.093517{col 67}{space 3} 1.256458
 {txt}{space 7}_cons {c |}{col 14}{res}{space 2} 72.02476{col 26}{space 2} .4544166{col 37}{space 1}  158.50{col 46}{space 3}0.000{col 54}{space 4} 71.13398{col 67}{space 3} 72.91555
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{txt}file {bf:Pictures/Stata/rvfplot_user_Dummy.png} written in PNG format
+{res}************ VIF Tabelle *******************************************************
+
+{txt}    Variable {c |}       VIF       1/VIF  
+{hline 13}{c +}{hline 22}
+top10_deve~a {c |} {res}     1.13    0.887235
+{txt}top10_publ~a {c |} {res}     1.12    0.891442
+{txt}top10_genr~a {c |} {res}     1.03    0.972320
+{txt}{space 1}niche_width {c |} {res}     1.01    0.989864
+{txt}{hline 13}{c +}{hline 22}
+    Mean VIF {c |} {res}     1.07
+{txt}file {bf:Pictures/Stata/rvfplot_user_Dummy.png} written in PNG format
 {res}**********************************************************************************
 ************ Metascore ALL Getrennt **********************************************
 **********************************************************************************
@@ -112,7 +156,21 @@
 {txt}developer_~y {c |}{col 14}{res}{space 2} .0643654{col 26}{space 2}  .008771{col 37}{space 1}    7.34{col 46}{space 3}0.000{col 54}{space 4} .0471717{col 67}{space 3}  .081559
 {txt}{space 7}_cons {c |}{col 14}{res}{space 2} 62.71499{col 26}{space 2} .6690018{col 37}{space 1}   93.74{col 46}{space 3}0.000{col 54}{space 4} 61.40355{col 67}{space 3} 64.02642
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{txt}file {bf:Pictures/Stata/rvfplot_meta_all_getrennt.png} written in PNG format
+{res}************ VIF Tabelle *******************************************************
+
+{txt}    Variable {c |}       VIF       1/VIF  
+{hline 13}{c +}{hline 22}
+developer_~y {c |} {res}     2.87    0.348747
+{txt}top10_deve~r {c |} {res}     2.78    0.359746
+{txt}publisher_~y {c |} {res}     1.67    0.600027
+{txt}top10_publ~r {c |} {res}     1.64    0.611301
+{txt}{space 1}niche_width {c |} {res}     1.06    0.946131
+{txt}top10_genr~r {c |} {res}     1.05    0.954340
+{txt}{space 8}year {c |} {res}     1.04    0.957995
+{txt}platform_w~h {c |} {res}     1.03    0.973737
+{txt}{hline 13}{c +}{hline 22}
+    Mean VIF {c |} {res}     1.64
+{txt}file {bf:Pictures/Stata/rvfplot_meta_all_getrennt.png} written in PNG format
 {res}**********************************************************************************
 ************ Userscore ALL *******************************************************
 **********************************************************************************
@@ -137,11 +195,25 @@
 {txt}developer_~y {c |}{col 14}{res}{space 2} .0546986{col 26}{space 2} .0066766{col 37}{space 1}    8.19{col 46}{space 3}0.000{col 54}{space 4} .0416106{col 67}{space 3} .0677866
 {txt}{space 7}_cons {c |}{col 14}{res}{space 2} 77.94068{col 26}{space 2} .6644212{col 37}{space 1}  117.31{col 46}{space 3}0.000{col 54}{space 4} 76.63823{col 67}{space 3} 79.24314
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{res}{txt}file {bf:Pictures/Stata/rvfplot_user_all_getrennt.png} written in PNG format
+{res}************ VIF Tabelle *******************************************************
+
+{txt}    Variable {c |}       VIF       1/VIF  
+{hline 13}{c +}{hline 22}
+developer_~y {c |} {res}     1.61    0.622752
+{txt}top10_deve~a {c |} {res}     1.57    0.637793
+{txt}publisher_~y {c |} {res}     1.46    0.686762
+{txt}top10_publ~a {c |} {res}     1.39    0.720826
+{txt}{space 8}year {c |} {res}     1.04    0.959284
+{txt}top10_genr~a {c |} {res}     1.04    0.965923
+{txt}platform_w~h {c |} {res}     1.02    0.978124
+{txt}{space 1}niche_width {c |} {res}     1.02    0.980006
+{txt}{hline 13}{c +}{hline 22}
+    Mean VIF {c |} {res}     1.27
+{txt}file {bf:Pictures/Stata/rvfplot_user_all_getrennt.png} written in PNG format
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest3.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 4 Feb 2023, 01:09:19
+ {txt}closed on:  {res} 7 Feb 2023, 02:06:42
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
