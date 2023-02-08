@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{rotating, graphicx}
+\usepackage{caption}
+
+
+
+\begin{document}
+{
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption*{Korrelationsmatrix}
+\resizebox{\textwidth}{!}{%
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{13}{c}}
+\hline\hline
+            &\multicolumn{13}{c}{}                                                                                                                                                                                                                                                                     \\
+            &\multicolumn{13}{c}{}                                                                                                                                                                                                                                                                        \\
+            &  Metascore         &  Userscore         & Niche Width         &Platform Width         &        Year          &Top10 Genre Meta         &Top10 Genre User         &Top10 Publisher Meta         &Top10 Publisher User         &Top10 Developer Meta         &Top10 Developer User         &Publisher Activity         &Developer Activity         \\
+\hline
+Metascore  &        1.00         &                     &                     &                     &                     &                     &                     &                     &                     &                     &                     &                     &                     \\
+Userscore  &        0.61\sym{***}&        1.00         &                     &                     &                     &                     &                     &                     &                     &                     &                     &                     &                     \\
+Niche Width &        0.02         &       -0.07\sym{***}&        1.00         &                     &                     &                     &                     &                     &                     &                     &                     &                     &                     \\
+Platform Width&        0.11\sym{***}&        0.01         &        0.03\sym{**} &        1.00         &                     &                     &                     &                     &                     &                     &                     &                     &                     \\
+Year         &        0.01         &       -0.22\sym{***}&       -0.05\sym{***}&        0.05\sym{***}&        1.00         &                     &                     &                     &                     &                     &                     &                     &                     \\
+Top10 Genre Meta&        0.15\sym{***}&        0.04\sym{**} &        0.08\sym{***}&        0.08\sym{***}&       -0.05\sym{***}&        1.00         &                     &                     &                     &                     &                     &                     &                     \\
+Top10 Genre User&        0.08\sym{***}&        0.14\sym{***}&       -0.18\sym{***}&       -0.05\sym{***}&        0.04\sym{***}&        0.26\sym{***}&        1.00         &                     &                     &                     &                     &                     &                     \\
+Top10 Publisher Meta&        0.22\sym{***}&        0.17\sym{***}&        0.04\sym{***}&       -0.01         &       -0.04\sym{***}&        0.12\sym{***}&        0.03\sym{*}  &        1.00         &                     &                     &                     &                     &                     \\
+Top10 Publisher User&        0.17\sym{***}&        0.22\sym{***}&       -0.09\sym{***}&       -0.07\sym{***}&       -0.10\sym{***}&        0.04\sym{***}&        0.07\sym{***}&        0.52\sym{***}&        1.00         &                     &                     &                     &                     \\
+Top10 Developer Meta&        0.15\sym{***}&        0.05\sym{***}&        0.07\sym{***}&        0.09\sym{***}&       -0.03\sym{*}  &        0.13\sym{***}&       -0.06\sym{***}&        0.32\sym{***}&        0.09\sym{***}&        1.00         &                     &                     &                     \\
+Top10 Developer User&        0.11\sym{***}&        0.13\sym{***}&       -0.05\sym{***}&        0.04\sym{***}&        0.00         &        0.01         &        0.06\sym{***}&        0.24\sym{***}&        0.34\sym{***}&        0.53\sym{***}&        1.00         &                     &                     \\
+Publisher Activity&        0.15\sym{***}&        0.15\sym{***}&        0.05\sym{***}&        0.03\sym{*}  &       -0.18\sym{***}&        0.07\sym{***}&       -0.02\sym{*}  &        0.46\sym{***}&        0.57\sym{***}&        0.20\sym{***}&        0.26\sym{***}&        1.00         &                     \\
+Developer Activity&        0.16\sym{***}&        0.14\sym{***}&       -0.02         &        0.09\sym{***}&       -0.05\sym{***}&        0.06\sym{***}&        0.06\sym{***}&        0.23\sym{***}&        0.30\sym{***}&        0.55\sym{***}&        0.79\sym{***}&        0.36\sym{***}&        1.00         \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
+\end{table}
+}
+
+\end{document}

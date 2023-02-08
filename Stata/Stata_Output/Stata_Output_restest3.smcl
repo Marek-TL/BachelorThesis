@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest3.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 7 Feb 2023, 02:06:21
+ {txt}opened on:  {res} 8 Feb 2023, 20:44:29
 **********************************************************************************
 ************ Metascore ohne Dummy ************************************************
 **********************************************************************************
@@ -213,7 +213,7 @@ developer_~y {c |} {res}     1.61    0.622752
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_restest3.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 7 Feb 2023, 02:06:42
+ {txt}closed on:  {res} 8 Feb 2023, 20:44:49
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{rotating, graphicx}
+\usepackage{caption}
+
+
+\begin{document}
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption*{Metascore Regressions Tabelle}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                    &\multicolumn{1}{c}{Metascore}&\multicolumn{1}{c}{Metascore}&\multicolumn{1}{c}{Metascore}&\multicolumn{1}{c}{Metascore}&\multicolumn{1}{c}{Metascore}&\multicolumn{1}{c}{Metascore}\\
+\hline
+Niche Width         &       0.210         &       0.156         &       0.543\sym{***}&       0.455\sym{***}&                     &       0.188         \\
+                    &      (1.72)         &      (1.31)         &      (4.46)         &      (3.76)         &                     &      (1.56)         \\
+[1em]
+Platform Width      &                     &       1.658\sym{***}&                     &       1.897\sym{***}&       1.727\sym{***}&       1.726\sym{***}\\
+                    &                     &      (8.40)         &                     &      (9.64)         &      (8.88)         &      (8.87)         \\
+[1em]
+Year                &                     &      0.0699\sym{**} &                     &      0.0698\sym{**} &      0.0678\sym{**} &      0.0690\sym{**} \\
+                    &                     &      (2.67)         &                     &      (2.68)         &      (2.64)         &      (2.69)         \\
+[1em]
+Publisher Activity  &                     &      0.0123\sym{***}&                     &     0.00496\sym{**} &    0.000851         &    0.000666         \\
+                    &                     &      (9.35)         &                     &      (3.21)         &      (0.55)         &      (0.43)         \\
+[1em]
+Developer Activity  &                     &      0.0501\sym{***}&                     &      0.0644\sym{***}&      0.0523\sym{***}&      0.0525\sym{***}\\
+                    &                     &      (8.90)         &                     &      (7.34)         &      (5.86)         &      (5.88)         \\
+[1em]
+Top10 Genre User    &                     &                     &       2.669\sym{***}&       2.811\sym{***}&       1.863\sym{***}&       1.978\sym{***}\\
+                    &                     &                     &      (6.94)         &      (7.38)         &      (4.80)         &      (5.01)         \\
+[1em]
+Top10 Publisher User&                     &                     &       4.749\sym{***}&       4.144\sym{***}&       2.701\sym{***}&       2.797\sym{***}\\
+                    &                     &                     &     (12.51)         &      (9.23)         &      (5.61)         &      (5.77)         \\
+[1em]
+Top10 Developer User&                     &                     &       2.359\sym{***}&      -2.870\sym{***}&      -3.701\sym{***}&      -3.677\sym{***}\\
+                    &                     &                     &      (4.50)         &     (-3.54)         &     (-4.49)         &     (-4.46)         \\
+[1em]
+Top10 Genre Meta    &                     &                     &                     &                     &       3.807\sym{***}&       3.728\sym{***}\\
+                    &                     &                     &                     &                     &      (8.28)         &      (8.06)         \\
+[1em]
+Top10 Publisher Meta&                     &                     &                     &                     &       4.264\sym{***}&       4.221\sym{***}\\
+                    &                     &                     &                     &                     &      (9.54)         &      (9.43)         \\
+[1em]
+Top10 Developer Meta&                     &                     &                     &                     &       2.932\sym{***}&       2.894\sym{***}\\
+                    &                     &                     &                     &                     &      (4.17)         &      (4.11)         \\
+[1em]
+Constant            &       69.82\sym{***}&       64.53\sym{***}&       67.06\sym{***}&       62.71\sym{***}&       64.27\sym{***}&       63.60\sym{***}\\
+                    &    (156.95)         &     (98.32)         &    (142.49)         &     (93.74)         &    (127.85)         &     (96.21)         \\
+\hline
+R²                  &        0         &         0.045          &       0.039       &         0.064        &         0.093       &       0.094          \\
+Prob  F            &        0.085        &         0       &       0     &         0        &         0       &       0          \\
+Max. VIF           &        1.00        &         1.19       &       1.14     &         2.87        &         3.06       &       3.06          \\
+\hline
+Observations        &        7500         &        7492         &        7500         &        7492         &        7492         &        7492         \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+\end{table}
+\end{document}

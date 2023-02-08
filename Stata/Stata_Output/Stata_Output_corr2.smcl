@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_corr2.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 7 Feb 2023, 02:06:00
+ {txt}opened on:  {res} 8 Feb 2023, 20:44:08
 
              {txt}{c |} meta_s~e user_s~e niche_~h platfo~h     year t~e_meta t~e_user
 {hline 13}{c +}{hline 63}
@@ -70,7 +70,7 @@ developer_~y {c |} {res}  0.2291*  0.3049*  0.5493*  0.7869*  0.3591*  1.0000
       name:  {res}<unnamed>
        {txt}log:  {res}c:\Users\Marek\Documents\GitHub\BachelorThesis\Stata/Stata_Output/Stata_Output_corr2.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 7 Feb 2023, 02:06:00
+ {txt}closed on:  {res} 8 Feb 2023, 20:44:08
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
